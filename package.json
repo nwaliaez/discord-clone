@@ -9,19 +9,45 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.25.1",
+    "@hookform/resolvers": "^3.3.1",
+    "@prisma/client": "^5.3.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "@uploadthing/react": "^5.6.2",
+    "axios": "^1.5.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.279.0",
+    "next": "latest",
+    "next-themes": "^0.2.1",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.47.0",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^5.7.1",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.2",
+    "zustand": "^4.4.3"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/uuid": "^9.0.5",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "^5.3.1",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
